@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Foto da sorte da NASA</string>
+    <string name="imageDescription">Foto obtida pelo satélite da Nasa</string>
+</resources>

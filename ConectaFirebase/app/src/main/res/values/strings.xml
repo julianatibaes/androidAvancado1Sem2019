@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ConectaFirebase</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="fundo_topo">Fundo do topo</string>
+    <string name="topo_lista">Filmes</string>
+    <string name="foto_filme">foto do filme</string>
+    <string name="nome">nome</string>
+    <string name="topo_cadastra">Cadastro</string>
+    <string name="origem">Origem</string>
+    <string name="lancamento">lançamento</string>
+    <string name="salvar">salvar</string>
+    <string name="excluir">excluir</string>
+    <string name="maps">maps</string>
+    <string name="bomDia">Bom Dia</string>
+    <string name="descricao">Novo texto</string>
+</resources>

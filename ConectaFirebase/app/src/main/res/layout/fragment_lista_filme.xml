@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+             tools:context=".ui.activity.fragment.ListaFilmeFragment">
+
+    <ImageView
+            android:id="@+id/lista_image_topo"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/fundo_topo"
+            app:layout_constraintDimensionRatio="w,0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/colorPrimary" />
+
+    <TextView
+            android:id="@+id/lista_texto_topo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/topo_lista"
+            android:textSize="36sp"
+            app:layout_constraintBottom_toBottomOf="@+id/lista_image_topo"
+            app:layout_constraintEnd_toEndOf="@+id/lista_image_topo"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/lista_image_topo"
+            app:layout_constraintTop_toTopOf="@+id/lista_image_topo" />
+
+    <android.support.v7.widget.RecyclerView
+            android:id="@+id/lista_recycler"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_margin="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lista_image_topo" />
+
+</android.support.constraint.ConstraintLayout>
